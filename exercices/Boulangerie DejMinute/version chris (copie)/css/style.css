@@ -1,0 +1,48 @@
+@font-face {
+  src: url("../fonts/segoe-script.ttf");
+  font-family: Segoe-Script;
+}
+body{
+background-color:white;
+}
+.carousel{
+  margin: 100px auto;
+  width: 100%;
+  border:10px solid #FF68E2;
+}
+#presentation{
+  margin-top: 100px;
+  text-align: center;
+  color: #FF68E2;
+}
+#toTop{
+  color: #FF68E2;
+  right : 1%;
+  top: 90%;
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+  display: none;
+}
+#titlemenu{
+  text-align: center;
+  color: #FF68E2;  
+}
+#menu h1{
+ text-align: center;
+ color: #872055 ;
+ font-style: italic;
+ font-family: Segoe-Script;
+}
+#menu li{
+ margin-left: 15%;
+ font-size: 20px;
+ color: #872055 ;
+}
+#menu p{
+ color: #000;
+ margin: 0;
+ padding: 0;
+}

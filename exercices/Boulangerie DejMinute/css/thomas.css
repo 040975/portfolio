@@ -1,0 +1,43 @@
+.cool-link {
+  display: inline-block;
+  color: #000;
+	text-align: center;
+  color: #d6046C;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #d6046C;;
+  transition: width .3s;
+  color: #d6046C;
+}
+.cool-link:hover::after {
+  width: 100%;
+  transition: width .3s;
+  color: #d6046C;
+}
+#images{
+	height: 400px; /* Il sert à quoi ton ID frère ? */
+}
+#facadeB{
+	width:100%;
+	-webkit-width: 645px;
+  height:200px;
+  margin-top:20px;
+}
+#carte{
+	height: 250px;
+	-webkit-width: 630px;
+  width:100%;
+  margin-right:0px;
+}
+.commentaire{
+margin-top:20px;
+}
+#activités{
+  border-top:10px solid #d6046C;
+  border-bottom:10px solid #d6046C;
+}

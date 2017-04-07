@@ -1,0 +1,37 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#navsite {
+  background-color:pink;
+border-radius:0;
+border-bottom:15px solid #d6046C ;
+
+
+
+}
+#navsite .cool-link{
+  font-size: 25px;
+  color:#872055;
+  border-radius:10px 10px 10px;
+  margin-left:5%;
+  text-transform: uppercase;
+
+
+}
+#navsite .cool-link:hover{
+  color:#FF68E2;
+  background-color: white;
+}
+
+.img{
+  margin-top:200px;
+
+}
+#act{
+  color:#872055;
+}
+.modal-body{
+  background-color: pink;
+}

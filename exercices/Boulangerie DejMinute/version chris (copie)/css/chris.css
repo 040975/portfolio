@@ -1,0 +1,31 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+
+#navsite {
+  background-color: white;
+border-radius:0;
+border-bottom:15px solid #FF68E2 ;
+
+
+
+}
+#navsite .cool-link{
+  font-size: 25px;
+  color:#FF68E2;
+  border-radius:10px 10px 10px;
+  margin-left:5%;
+  text-transform: uppercase;
+
+
+}
+#navsite .cool-link:hover{
+  color:#FF68E2;
+  background-color: white;
+}
+
+.img{
+  margin-top:200px;
+
+}

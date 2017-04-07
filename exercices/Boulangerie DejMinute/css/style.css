@@ -1,0 +1,66 @@
+@font-face {
+  src: url("../fonts/segoe-script.ttf");
+  font-family: Segoe-Script;
+}
+body{
+background-color:pink;
+}
+.carousel{
+height:500px;
+  width: 100%;
+  background-position:center;
+  padding:0;
+  margin:0;
+
+}
+.item{
+  width:100%;
+  height:500px;
+    background-position: center;
+    background-size:contain;
+    padding:0;
+    margin:0;
+}
+#presentation{
+
+  text-align: center;
+  color: #FF68E2;
+}
+#toTop{
+  color: #FF68E2;
+  right : 1%;
+  top: 90%;
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  text-decoration: none;
+  outline: none;
+  display: none;
+}
+#titlemenu{
+  text-align: center;
+  color: #FF68E2;
+}
+#menu h1{
+ text-align: center;
+ color: #872055 ;
+ font-style: italic;
+ font-family: Segoe-Script;
+}
+#menu li{
+ margin-left: 15%;
+ font-size: 20px;
+ color: #872055 ;
+}
+#menu p{
+ color: #000;
+ margin: 0;
+ padding: 0;
+}
+#menu{
+  border-top:5px solid #d6046C;
+  border-bottom:5px solid #d6046C;
+}
+#button{
+  background-color:#872055 ;
+}
